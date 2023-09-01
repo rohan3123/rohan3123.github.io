@@ -4413,7 +4413,80 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    color: #212931;
     padding: 20px;
     opacity: 1; 
   }
+
+/* Style for the interests section */
+.interests {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the interest list */
+.interest-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style for each interest item */
+.interest-list li {
+    text-align: center;
+    width: 150px; /* Fixed width for all items */
+}
+
+/* Style for the interest icon */
+.interest-icon img {
+    width: 100px; /* Fixed width for all icons */
+    height: 100px; /* Fixed height for all icons */
+    border-radius: 50%; /* Creates a circle */
+    border: 2px solid #212931; /* Add a border if desired */
+    padding: 10px; /* Adjust padding as needed */
+    display: block;
+    margin: 0 auto; /* Center the icon horizontally */
+}
+
+/* Style for the interest description */
+.interest-list p {
+    margin-top: 10px;
+}
+
+/* Style for the interest description */
+.fit-text {
+    text-align: center;
+    font-size: 16px; /* Set an initial font size */
+    margin-top: 10px;
+}
+
+/* Adjust font size to fit the container */
+.fit-text-fit {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis if text overflows */
+}
+
+/* Apply font size reduction in steps */
+
+.fit-text-fit.step-2 {
+    font-size: 12px; /* Reduce font size for step 2 */
+}
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact-info ul li {
+    margin-right: 20px; /* Adjust spacing between <li> elements */
+}
+
+.contact-info p {
+    display: inline-block;
+    vertical-align: top;
+}
