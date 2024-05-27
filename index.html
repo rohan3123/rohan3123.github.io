@@ -1,162 +1,299 @@
 <!DOCTYPE HTML>
-
 <html>
 	<head>
-		<title>Rohan's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rohan's Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
 	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>Rohan Gazi</strong> <br> Computer Science Graduate</h1>
-				</div>
-			</header>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- About me -->
-					<section id="one">
-						<header class="major">
-							<h2>About Me</h2>
-						</header>
-						<p>I am highly <strong>MOTIVATED</strong> Computer Science BSc graduate from Nottingham Trent University, equipped with a solid 
-							foundation in <strong>AI, CLOUD COMPUTING,</strong> and <strong>SOFTWARE ENGINEERING.</strong> Demonstrated proficiency in programming 
-							through participation in GameJam, IBM, Development Society events and university projects. Excelling in 
-							teamwork and demonstrating adaptability in diverse environments. Eager to apply academic knowledge and 
-							technical skills to real world challenges.</p>
-                            
-						<ul class="actions">
-							<a href="#" class="button" onclick="window.open('Rohan Gazi.pdf', '_blank')">View CV in pdf</a>
-							<a href="#" class="button" onclick="window.open('Rohan Gazi.doc', '_blank')">View CV in docx</a>
-						</ul>
-					</section>
-
-				<!-- Skills -->
-				<section id="one">
-					<header class="major">
-						<h2>Skills</h2>
-					</header>
-					<p>I'm a <strong>ENTHUSIASTIC</strong> learner here's a couple of <strong>tools and languages</strong> I've worked with:</p>
-                <style>
-                    .skill-box {
-                        display: inline-block;
-                        margin: 10px;
-                        padding: 10px;
-                        background-color: #2d5127;
-                        border-radius: 4px;
-                    }
-                    
-                    .skill-name {
-                        font-weight: bold;
-                        margin-bottom: 5px;
-                    }
-                </style>
-
-                <div class="skill-box">
-                    <div class="skill-name">Java</div>
-                </div>
-
-                <div class="skill-box">
-                    <div class="skill-name">C++</div>
-                </div>
-
-                <div class="skill-box">
-                    <div class="skill-name">Python</div>
-                </div>
-
-                <div class="skill-box">
-                    <div class="skill-name">HTML5</div>
-                </div>
-
-                <div class="skill-box">
-                    <div class="skill-name">C#</div>
-                </div>
-
-                <div class="skill-box">
-                    <div class="skill-name">SQL</div>
-                </div>
-
-                <div class="skill-box">
-                    <div class="skill-name">GitHub</div>
-                </div>
-
-                <div class="skill-box">
-                    <div class="skill-name">VS code</div>
-                </div>
-
-				<div class="skill-box">
-                    <div class="skill-name">Android Studio</div>
-                </div>
-				</section>
-
-				<!-- Work -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<ul class="actions">
-							<a href="#" class="button" onclick="window.open('https://github.com/rohan3123')">GitHub</a>
-						</ul>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/rohan3123/Rotor-algorithm-" target="_blank">
-									<img src="images/thumbs/01.jpg" alt="Rotor system">
-								</a>
-								<h3>Rotor system</h3>
-								<p>A rotor system that makes use of SQLite and Tomcat server hosting to assign registered employees hours they must work.</p>
-							</article>
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/rohan3123/tesco-uniform-recognition" target="_blank">
-									<img src="images/thumbs/02.jpg" alt="Tesco uniform recognition system">
-								</a>
-								<h3>Tesco uniform recognition system</h3>
-								<p>A recognition system that makes use of machine learning models to recognize the Tesco uniform on camera.</p>
-							</article>
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/rohan3123/calculator-html" target="_blank">
-									<img src="images/thumbs/03.jpg" alt="Calculator HTML">
-								</a>
-								<h3>Calculator HTML</h3>
-								<p>A calculator made using HTML.</p>
-							</article>
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/rohan3123/pathfinding" target="_blank">
-									<img src="images/thumbs/04.jpg" alt="Pathfinding algorithm">
-								</a>
-								<h3>Pathfinding algorithm</h3>
-								<p>A pathfinding algorithm that finds the best path from the green square to the pink one. You can draw barriers indicated by the white squares, and the algorithm will find the best path to the pink square.</p>
-							</article>
-							
-						</div>
-					</section>
-
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/rohan-gazi-b33485256/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://www.instagram.com/umm.rohan" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="https://github.com/rohan3123" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a>Rohan Gazi</a></h1>
+				<span class="position">Computer Science Graduate</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About me</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="blog">Portfolio</a></li>
+						<li><a href="https://www.linkedin.com/in/rohan-gazi-b33485256/" class="btn btn-primary btn-learn"><span>LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/umm.rohan" class="btn btn-primary btn-learn"><span>Instagram</span></a></li>
+						<li><a href="https://github.com/rohan3123" class="btn btn-primary btn-learn"><span>GitHub</span></a></li>
 					</ul>
-					
 				</div>
-			</footer>
+			</nav>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+						<li style="background-image: url(images/img_bg_1.jpg);">
+							<div class="overlay"></div>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+										<div class="slider-text-inner js-fullheight">
+											<div class="desc" style="background-color: white; padding: 20px;">
+												<h1>Hi! <br>I'm Rohan</h1>
+												<h2>Computer Science Graduate from Nottingham Trent University</h2>
+												<p>
+													<a class="btn btn-primary btn-learn" href="#" onclick="window.open('Rohan Gazi.pdf', '_blank')">
+														View CV in PDF <i class="icon-download4"></i>
+													</a>
+												</p>
+												<p>
+													<a class="btn btn-primary btn-learn" href="#" onclick="window.open('Rohan Gazi.doc', '_blank')">
+														View CV in DOCX <i class="icon-download4"></i>
+													</a>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Me</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Rohan Gazi</strong> I am highly <strong>MOTIVATED</strong> Computer Science BSc graduate from Nottingham Trent University, equipped with a solid 
+											foundation in <strong>AI, CLOUD COMPUTING,</strong> and <strong>SOFTWARE ENGINEERING.</strong> Demonstrated proficiency in programming 
+											through participation in GameJam, IBM, Development Society events and university projects. Excelling in 
+											teamwork and demonstrating adaptability in diverse environments. Eager to apply academic knowledge and 
+											technical skills to real world challenges.
+										
+											<br><br>Based in Yorkshire with a strong analytical background. Seeking a graduate role to utilise and cultivate my skills.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Specialty</span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>I'm an <strong>ENTHUSIASTIC</strong> learner. Here are a couple of <strong>TOOLS</strong> and <strong>LANGUAGES</strong> I've worked with:</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<div class="services color-1">
+								<span class="icon2"><i class="icon-code"></i></span>
+								<h3>Java</h3>
+							</div>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+							<div class="services color-2">
+								<span class="icon2"><i class="icon-code"></i></span>
+								<h3>C++</h3>
+							</div>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+							<div class="services color-3">
+								<span class="icon2"><i class="icon-code"></i></span>
+								<h3>Python</h3>
+							</div>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+							<div class="services color-4">
+								<span class="icon2"><i class="icon-code"></i></span>
+								<h3>HTML5</h3>
+							</div>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<div class="services color-5">
+								<span class="icon2"><i class="icon-code"></i></span>
+								<h3>C#</h3>
+							</div>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+							<div class="services color-6">
+								<span class="icon2"><i class="icon-database"></i></span>
+								<h3>SQL</h3>
+							</div>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+							<div class="services color-7">
+								<span class="icon2"><i class="icon-github"></i></span>
+								<h3>GitHub</h3>
+							</div>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+							<div class="services color-8">
+								<span class="icon2"><i class="icon-code"></i></span>
+								<h3>VS Code</h3>
+							</div>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<div class="services color-9">
+								<span class="icon2"><i class="icon-android"></i></span>
+								<h3>Android Studio</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a> Bachelor`s Degree Of Computer Science</a>
+									        </h4>
+									    </div>
+									    <div>
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p> Nottingham Trent University</p>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p> Grade: 2.2</p>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a> Level 3 Diploma Of Computer Science</a>
+									        </h4>
+									    </div>
+									    <div>
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p> Leeds City College</p>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p> Grade: Distinction, Distinction, Distinction</p>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Portfolio</span>
+							<h2 class="colorlib-heading">Best Work</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<h3><a href="https://github.com/rohan3123/Rotor-algorithm-" target="_blank">Rotor system</a></h3>
+									<p>A rotor system that makes use of SQLite and Tomcat server hosting to assign registered employees hours they must work.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<h3><a href="https://github.com/rohan3123/tesco-uniform-recognition" target="_blank">Tesco uniform recognition system</a></h3>
+									<p>A recognition system that makes use of machine learning models to recognize the Tesco uniform on camera.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<h3><a href="https://github.com/rohan3123/calculator-html" target="_blank">Calculator HTML</a></h3>
+									<p>A calculator made using HTML.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more" onclick="window.open('https://github.com/rohan3123')">GitHub <i></i></a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
 
 	</body>
 </html>
+
